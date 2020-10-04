@@ -1,0 +1,69 @@
+
+/* iPhone X Remove Gutters
+Ignore W3C Validation error for this style */
+
+html {
+    padding: env(safe-area-inset);
+}
+
+/* Body Reset */
+
+body {
+    font-family: 'Lato', sans-serif; 
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+
+/* ========== NAV ========== */
+.navbar-brand img{
+    height: 2em
+}
+.navbar-dark {
+    padding: .6rem 1 rem;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.navbar-nav li {
+    padding-right: .8rem
+}
+
+.navbar-nav .navlink {
+    padding-top: 8rem;
+    color:whitesmoke!important;
+}
+.navbar-nav .navlink:hover,
+.navbar-nav .navlink:active {
+    color: purple!important;
+}
+
+
+
+
+
+
+
+/* ========= ABOUT ========= */
+
+
+
+
+/* ======= PORTFOLIO ======= */
+
+
+
+
+/* ======== CONTACT ======== */
+
+
+
+
+/* ====== MEDIA QUERIES ===== */
+
+@media (max-width: 768px)
+
+
+
+
