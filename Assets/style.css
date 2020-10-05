@@ -39,6 +39,19 @@ body {
     color: purple!important;
 }
 
+/* ======= BACKGROUND IMAGE ======= */
+
+.trees {
+    background-image: url('../Pictures/lost-places-1928727_1920.jpg');
+    position: fixed;
+    height: fit-content;
+    
+}
+
+/* ======= BIO =======*/
+
+
+
 
 
 
