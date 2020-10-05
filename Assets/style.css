@@ -41,10 +41,10 @@ body {
 
 /* ======= BACKGROUND IMAGE ======= */
 
-.trees {
+.back-image {
     background-image: url('../Pictures/lost-places-1928727_1920.jpg');
     position: fixed;
-    height: fit-content;
+    background-size: auto;
     
 }
 
@@ -70,6 +70,9 @@ body {
 
 /* ======== CONTACT ======== */
 
+.info {
+    color: black;
+}
 
 
 
