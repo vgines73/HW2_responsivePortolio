@@ -34,10 +34,15 @@ body {
     padding-top: 8rem;
     color:whitesmoke!important;
 }
-.navbar-nav .navlink:hover,
+
+.breh {
+    color: red;
+}
+/* ===== NEED HELP WITH THIS ==== */
+/*.navbar-nav .navlink:hover,
 .navbar-nav .navlink:active {
     color: purple!important;
-}
+} */
 
 /* ======= BACKGROUND IMAGE ======= */
 
@@ -70,11 +75,17 @@ body {
     color: black;
 }
 
+/* ====== FOOTER ======*/
 
+.attribution {
+    text-align: center;
+}
 
 /* ====== MEDIA QUERIES ===== */
 
-@media (max-width: 768px)
+@media (max-width: 768px) {
+    
+}
 
 
 
