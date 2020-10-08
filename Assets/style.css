@@ -36,12 +36,14 @@ body {
 }
 
 .breh {
-    color: red;
+    color: whitesmoke!important;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
 }
 
 /* ======= BACKGROUND IMAGE ======= */
 
-.back-image {
+.index-back-image {
     background-image: url('../Pictures/Index_images/hands-984032.jpg');
     position: fixed;
     background-size: cover;
@@ -85,6 +87,16 @@ body {
 
 .info {
     color: black;
+    position: relative;
+}
+
+.contact-image {
+    background-image: url('../Pictures/Contact_images/wallpaper-3219829_1920.jpg');
+    position: fixed;
+    background-size: cover;
+    height: 150%;
+    width: 100%;
+    margin: 0;
 }
 
 /* ====== FOOTER ======*/
