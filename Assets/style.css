@@ -93,10 +93,11 @@ body {
 .contact-image {
     background-image: url('../Pictures/Contact_images/wallpaper-3219829_1920.jpg');
     position: fixed;
-    background-size: cover;
+    background-size: contain;
     height: 100%;
     width: 100%;
     margin: 0;
+    object-fit: contain;
 }
 
 /* ====== FOOTER ======*/
