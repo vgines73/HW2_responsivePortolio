@@ -38,20 +38,22 @@ body {
 .breh {
     color: red;
 }
-/* ===== NEED HELP WITH THIS ==== */
-/*.navbar-nav .navlink:hover,
-.navbar-nav .navlink:active {
-    color: purple!important;
-} */
 
 /* ======= BACKGROUND IMAGE ======= */
 
 .back-image {
-    background-image: url('../Pictures/lost-places-1928727_1920.jpg');
+    background-image: url('../Pictures/Index_images/hands-984032.jpg');
     position: fixed;
-    background-size: auto;
-    
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
+
+
+
+
+
 
 
 
@@ -65,8 +67,18 @@ body {
 
 
 /* ======= PORTFOLIO ======= */
+.portfolio-image {
+    background-image: url('../Pictures/Portfolio_images/universe-1566161.jpg');
+    position: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border-image-repeat: stretch;
+}
 
 
+/* HOVER/FOCUS/ACTIVE BUTTONS */
 
 
 /* ======== CONTACT ======== */
@@ -84,9 +96,7 @@ body {
 /* ====== MEDIA QUERIES ===== */
 
 @media (max-width: 768px) {
-    
+ 
 }
-
-
 
 
