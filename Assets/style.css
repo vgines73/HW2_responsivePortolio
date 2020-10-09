@@ -1,12 +1,5 @@
 
-/* iPhone X Remove Gutters
-Ignore W3C Validation error for this style */
-
-html {
-    padding: env(safe-area-inset);
-}
-
-/* Body Reset */
+/* == BODY RESET == */
 
 body {
     font-family: 'Lato', sans-serif; 
@@ -15,6 +8,7 @@ body {
 }
 
 /* ========== NAV ========== */
+
 .navbar-brand img{
     height: 2em
 }
@@ -35,81 +29,51 @@ body {
     color:whitesmoke!important;
 }
 
+/* ======= BACKGROUND IMAGE ======= */
+
+.index-img{
+    background-image: url('../Pictures/Index_images/hands-984032.jpg');
+    background-size: cover;
+}
+
+.teams {
+    color: whitesmoke!important;
+}
+
+/* ======== CONTACT ======== */
+
+.contact-img {
+    background-image: url('../Pictures/Contact_images/wallpaper-3219829_1920.jpg');
+    background-size: cover;
+}
+.info {
+    color: black;
+    position: relative;
+}
+/* ======= PORTFOLIO ======= */
+
+.portfolio-img {
+    background-image: url('../Pictures/Portfolio_images/wallpaper-978000_1920.jpg');
+    background-size: cover;
+
+}
+
+.portfolio-attribution {
+    text-align: center;
+    color: grey;
+    position: relative;
+}
+
+/* ====== FOOTER ======*/
+
 .breh {
     color: whitesmoke!important;
     letter-spacing: .2rem;
     text-transform: uppercase;
 }
 
-/* ======= BACKGROUND IMAGE ======= */
-
-.index-back-image {
-    background-image: url('../Pictures/Index_images/hands-984032.jpg');
-    position: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-/* ========= ABOUT ========= */
-.teams {
-    color: whitesmoke;
-}
-
-
-
-/* ======= PORTFOLIO ======= */
-.portfolio-image {
-    background-image: url('../Pictures/Portfolio_images/universe-1566161.jpg');
-    position: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    border-image-repeat: stretch;
-}
-
-
-/* HOVER/FOCUS/ACTIVE BUTTONS */
-
-
-/* ======== CONTACT ======== */
-
-.info {
+.attribution {
+    text-align: center;
     color: black;
     position: relative;
 }
-
-.contact-image {
-    background-image: url('../Pictures/Contact_images/wallpaper-3219829_1920.jpg');
-    position: fixed;
-    background-size: contain;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    object-fit: contain;
-}
-
-/* ====== FOOTER ======*/
-
-.attribution {
-    text-align: center;
-}
-
-/* ====== MEDIA QUERIES ===== */
-
-@media (max-width: 768px) {
- 
-}
-
-
