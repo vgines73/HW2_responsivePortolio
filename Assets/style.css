@@ -1,4 +1,3 @@
-
 /* == BODY RESET == */
 
 body {
@@ -10,10 +9,10 @@ body {
 /* ========== NAV ========== */
 
 .navbar-brand img{
-    height: 2em
+    height: 2em;
 }
 .navbar-dark {
-    padding: .6rem 1 rem;
+    padding: .6rem 1rem;
     font-size: 1rem;
     font-weight: 700;
     letter-spacing: .2rem;
@@ -50,6 +49,7 @@ body {
     color: black;
     position: relative;
 }
+
 /* ======= PORTFOLIO ======= */
 
 .portfolio-img {
