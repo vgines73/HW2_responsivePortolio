@@ -1,6 +1,7 @@
 # HW2_responsivePorfolio
+Goal to create a mobile-first responsive portfolio:
 
-* Using Bootstrap, develop your portfolio site with the following items:
+* Used Bootstrap, developed my portfolio site with the following items:
 
    * A navbar
 
@@ -8,6 +9,7 @@
 
    * Responsive images
 
+Website: 
 * The Bootstrap portfolio should minimize the use of media queries.
 
 * Functional, deployed application
@@ -18,12 +20,12 @@
 
 * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 
-* All links must work.
+* All links must work. (I added buttons to my portfolio section for each thumbnail for link to my work and the github repo but I don't have any since we haven't done any projects yet).
 
 * Must use semantic html.
 
-* Each page must have valid and correct HTML. (use a validation service)
+* Each page has valid and correct HTML. (use a validation service)
 
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+* Must contain my personalized information. (bio, name, images, links to social media, etc.)
 
 * Must properly utilize Bootstrap components and grid system.
