@@ -50,6 +50,11 @@ body {
     position: relative;
 }
 
+.contact-attribution {
+    text-align: center;
+    color: black;
+    position: relative;
+}
 /* ======= PORTFOLIO ======= */
 
 .portfolio-img {
@@ -74,6 +79,6 @@ body {
 
 .attribution {
     text-align: center;
-    color: black;
+    color: whitesmoke;
     position: relative;
 }
