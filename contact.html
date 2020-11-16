@@ -1,167 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=7">
-    <title>About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
 <body class="contact-img">
-    <header>
-        <!--NAV-->
-        <nav class="fix-top navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Breh</a><img src="./Pictures/Index_images/letter-1084809.png" alt="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <section class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        More
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="mailto:vgines73@gmail.com">Email: vgines73@gmail.com</a>
-                        <a class="dropdown-item" href="tel:4157062475">Cell: 415-706-2475</a>
-                        <a class="dropdown-item" href="./Resume/Vincent_Gines_Resume.PDF">My Resume</a>
-                      </div>
-                    </li>
-                </ul>
+  <header>
+    <!--NAV-->
+    <nav class="fix-top navbar navbar-expand-md navbar-dark bg-dark">
+      <img src="./Pictures/Index_images/letter-1084809.png" alt="letter b cube logo">
+      <a class="navbar-brand" href="index.html">
+        <h2>Vincent Gines</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <section class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="mailto:vgines73@gmail.com">Email: vgines73@gmail.com</a>
+              <a class="dropdown-item" href="tel:4157062475">Cell: 415-706-2475</a>
+              <a class="dropdown-item" href="./Resume/Vincent_Gines_Resume.PDF">My Resume</a>
             </section>
-        </nav>
-    </header>
+          </li>
+          <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
+    </nav>
+  </header>
 
-    <section>
-      <section role="img" aria-label="light color brick wall"></section>
-    </section>
-    <main>
-        <article class="row">
-            <section class="col-md-4">
-                <header>
-                  <h1 class="info container">Contact Me</h1>
-                </header>
-                <form class="info container">
-                    <address class="form-group">
-                        <label for="exampleInputName1">Name</label>
-                        <input type="name" class="form-control" id="exampleInputName1" aria-describedby="NameHelp" placeholder="Name">
-                    </address>
-                    <address class="form-group">
-                        <label for="exampleInputEmail1">Email Address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" data-error="valid Email is required">
-                        <div class="help-block with-errors"></div>
-                    </address>
-                    <address class="form-group">
-                        <label for="exampleInputMessage">Message</label>
-                        <input type="message" rows="4" class="form-control" id="exampleInputMessage1" placeholder="Message">
-                        <div class="help-block with-errors"></div>
-                    </address>
-                    <button type="submit" value="Send Message" class="btn btn-primary">Submit</button>
-                </form>
-            </section>
+  <section>
+    <section role="img" aria-label="light color brick wall"></section>
+  </section>
+  <main>
+    <article class="row">
+      <section class="col-md-4">
+        <header>
+          <h1 class="info container">Contact Me</h1>
+        </header>
+        <form class="info container">
+          <address class="form-group">
+            <label for="exampleInputName1">Name</label>
+            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="NameHelp"
+              placeholder="Name">
+          </address>
+          <address class="form-group">
+            <label for="exampleInputEmail1">Email Address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Email" data-error="valid Email is required">
+            <div class="help-block with-errors"></div>
+          </address>
+          <address class="form-group">
+            <label for="exampleInputMessage">Message</label>
+            <input type="message" rows="4" class="form-control" id="exampleInputMessage1" placeholder="Message">
+            <div class="help-block with-errors"></div>
+          </address>
+          <button type="submit" value="Send Message" class="btn btn-primary">Submit</button>
+        </form>
+      </section>
 
-            <section class="col-md-8">
-                <nav id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    </ol>
-                    <section class="carousel-inner">
-                      <figure class="carousel-item active">
-                        <img src="./Pictures/Contact_images/bridge-53769_1920 (1).jpg" class="d-block w-100" alt="japanese garden with bridge">
-                        <figcaption class="carousel-caption d-none d-md-block">
-                          <h5>Attention to detail</h5>
-                        </figcaption>
-                      </figure>
-                      <figure class="carousel-item">
-                        <img src="./Pictures/Contact_images/snowboarder-690779_1920.jpg" class="d-block w-100" alt="person snowboarding">
-                        <figcaption class="carousel-caption d-none d-md-block">
-                          <h5>Carving My Path to Success</h5>
-                        </figcaption>
-                      </figure>
-                      <figure class="carousel-item">
-                        <img src="./Pictures/Contact_images/basketball-2258651_1920.jpg" class="d-block w-100" alt="person posing with basketball after sunset">
-                        <figcaption class="carousel-caption d-none d-md-block">
-                          <h5>Team Player and Dedication</h5>
-                        </figcaption>
-                      </figure>
-                    </section>
-                    <nav>
-                      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </nav>
-                </nav>  
-            </section>
-        </article>
-    </main>
-    <br>
-    <section>  
-        <section class="row info">
-            <figure class="col-md-4">
-                <img src="https://i.pinimg.com/736x/1a/a7/1e/1aa71e4fe64928b08a4f4526befe55a8--alex-pardee-horror-art.jpg" alt="skull with horror villians" class="img-thumbnail rounded-circle">
-                <header>
-                  <h2 class="text-center">Horror Art</h2>
-                </header>
+      <section class="col-md-8">
+        <nav id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <section class="carousel-inner">
+            <figure class="carousel-item active">
+              <img src="./Pictures/Contact_images/bridge-53769_1920 (1).jpg" class="d-block w-100"
+                alt="japanese garden with bridge">
+              <figcaption class="carousel-caption d-none d-md-block">
+                <h5>Attention to detail</h5>
+              </figcaption>
             </figure>
-            <figure row container class="col-md-4">
-                <img src="./Pictures/Contact_images/table-1284507_1920.jpg" alt="d.j. table mixer" class="img-thumbnail rounded">
-                <header>
-                  <h2 class="text-center">Music</h2>
-                </header>                
-                <img src="./Pictures/Contact_images/good-vs-evil-5059839_640.jpg" alt="numbers water-fist fire-fist" class="img-thumbnail rounded">
-                <header>
-                  <h2 class="text-center">Coding</h2>
-                </header>
-            </figure>            
-            <figure class="col-md-4">
-                <img src="https://pbs.twimg.com/media/ClhNJ72UoAE_aVZ.jpg:large" alt="sketch of demonic anime character" class="img-thumbnail rounded-circle">
-                <header>
-                  <h2 class="text-center">Anime Art</h2>
-                </header>
-            </figure>  
+            <figure class="carousel-item">
+              <img src="./Pictures/Contact_images/snowboarder-690779_1920.jpg" class="d-block w-100"
+                alt="person snowboarding">
+              <figcaption class="carousel-caption d-none d-md-block">
+                <h5>Carving My Path to Success</h5>
+              </figcaption>
+            </figure>
+            <figure class="carousel-item">
+              <img src="./Pictures/Contact_images/basketball-2258651_1920.jpg" class="d-block w-100"
+                alt="person posing with basketball after sunset">
+              <figcaption class="carousel-caption d-none d-md-block">
+                <h5>Team Player and Dedication</h5>
+              </figcaption>
+            </figure>
           </section>
+          <nav>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </nav>
+        </nav>
+      </section>
+    </article>
+  </main>
+  <br>
+  <section>
+    <section class="row info">
+      <figure class="col-md-4">
+        <img src="https://i.pinimg.com/736x/1a/a7/1e/1aa71e4fe64928b08a4f4526befe55a8--alex-pardee-horror-art.jpg"
+          alt="skull with horror villians" class="img-thumbnail rounded-circle">
+        <header>
+          <h2 class="text-center">Horror Art</h2>
+        </header>
+      </figure>
+      <figure row container class="col-md-4">
+        <img src="./Pictures/Contact_images/table-1284507_1920.jpg" alt="d.j. table mixer"
+          class="img-thumbnail rounded">
+        <header>
+          <h2 class="text-center">Music</h2>
+        </header>
+        <img src="./Pictures/Contact_images/good-vs-evil-5059839_640.jpg" alt="numbers water-fist fire-fist"
+          class="img-thumbnail rounded">
+        <header>
+          <h2 class="text-center">Coding</h2>
+        </header>
+      </figure>
+      <figure class="col-md-4">
+        <img src="https://pbs.twimg.com/media/ClhNJ72UoAE_aVZ.jpg:large" alt="sketch of demonic anime character"
+          class="img-thumbnail rounded-circle">
+        <header>
+          <h2 class="text-center">Anime Art</h2>
+        </header>
+      </figure>
     </section>
+  </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
+  <br>
+
+  <footer class="contact-attribution">
+    &copy; Made by Vincent <span class="breh">"BREH"</span> Gines
     <br>
-
-    <footer class="contact-attribution">
-      &copy; Made by Vincent <span class="breh">"BREH"</span> Gines
-      <br>
-      <!--background image-->
-      Image by <a href="https://pixabay.com/users/engin_akyurt-3656355/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3219829">Engin Akyurt</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3219829">Pixabay</a>
-      <!--snowboarding-->         
-      Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690779">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690779">Pixabay</a>
-      <!--basketball sunset-->    
-      Image by <a href="https://pixabay.com/users/tortugadatacorp-5195555/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2258651">Varun Kulkarni</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2258651">Pixabay</a>
-      <!--japanese garden-->      
-      <br>
-      Image by <a href="https://pixabay.com/users/jamesdemers-3416/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=53769">JamesDeMers</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=53769">Pixabay</a>
-      <!--music-->  
-      Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1284507">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1284507">Pixabay</a>
-      <!--coding-->
-      Image by <a href="https://pixabay.com/users/matryx-15948447/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5059839">Omni Matryx</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5059839">Pixabay</a>
-    </footer>
+    <!--background image-->
+    Image by <a
+      href="https://pixabay.com/users/engin_akyurt-3656355/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3219829">Engin
+      Akyurt</a> from <a
+      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3219829">Pixabay</a>
+    <!--snowboarding-->
+    Image by <a
+      href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690779">Free-Photos</a>
+    from <a
+      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690779">Pixabay</a>
+    <!--basketball sunset-->
+    Image by <a
+      href="https://pixabay.com/users/tortugadatacorp-5195555/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2258651">Varun
+      Kulkarni</a> from <a
+      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2258651">Pixabay</a>
+    <!--japanese garden-->
+    <br>
+    Image by <a
+      href="https://pixabay.com/users/jamesdemers-3416/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=53769">JamesDeMers</a>
+    from <a
+      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=53769">Pixabay</a>
+    <!--music-->
+    Image by <a
+      href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1284507">Pexels</a>
+    from <a
+      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1284507">Pixabay</a>
+    <!--coding-->
+    Image by <a
+      href="https://pixabay.com/users/matryx-15948447/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5059839">Omni
+      Matryx</a> from <a
+      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5059839">Pixabay</a>
+  </footer>
 </body>
+
 </html>
