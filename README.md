@@ -39,9 +39,15 @@ https://github.com/vgines73/HW2_responsivePortolio
 https://vgines73.github.io/HW2_responsivePortolio/
 
 - - - 
+**Contact Info:**
+
+Email: vgines73@gmail.com
+
+
 <img src="https://img.shields.io/badge/LICENSE-mit-green">
 
 © 2020 Vincent Gines. All Rights Reserved. OH YEAH!
+
 
 
 

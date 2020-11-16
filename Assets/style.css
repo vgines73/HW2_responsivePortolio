@@ -58,7 +58,7 @@ body {
 /* ======= PORTFOLIO ======= */
 
 .portfolio-img {
-    background-image: url('../Pictures/Portfolio_images/wallpaper-978000_1920.jpg');
+    background-image: url('../Pictures/Portfolio_images/skull-2580981_1920.jpg');
     background-size: cover;
 
 }
@@ -69,6 +69,10 @@ body {
     position: relative;
 }
 
+.thumbnails {
+    height:300px;
+    width: 300px;
+}
 /* ====== FOOTER ======*/
 
 .breh {
