@@ -1,32 +1,47 @@
 # HW2_responsivePorfolio
-Goal to create a mobile-first responsive portfolio:
 
-* Used Bootstrap, developed my portfolio site with the following items:
+## Vincent Gines Portfolio
 
-   * A navbar
+**List of Technologies Used:**
+1. HTML
+2. CSS
+3. Bootstrap
+4. Font Awesome
+5. Google Fonts
+
+**About the App:**
+
+To create a mobile-first responsive portfolio using Bootstrap.
+
+Site contains:
+
+   * A navbar containing Home/About, Contact, and Portfolio Pages
 
    * A responsive layout
 
    * Responsive images
 
-Website: 
-* The Bootstrap portfolio should minimize the use of media queries.
+   * Contains my personalized information. (bio, name, images, links to social media, GitHub, and LinkedIn).
 
-* Functional, deployed application
+**Screenshot#1:**
 
-* GitHub repository with README describing the project
 
-* Navbar must be consistent on each page.
+**Screenshot#2:**
 
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 
-* All links must work. (I added buttons to my portfolio section for each thumbnail for link to my work and the github repo but I don't have any since we haven't done any projects yet. also social media links work. didn't feel comfortable putting my actual accounts on there lol).
+**Screenshot#3:**
 
-* Must use semantic html.
 
-* Each page has valid and correct HTML. (use a validation service)
+**Repo Link:**
+https://github.com/vgines73/HW2_responsivePortolio
 
-* Must contain my personalized information. (bio, name, images, links to social media, etc.)
+**Live Link:**
+https://vgines73.github.io/HW2_responsivePortolio/
 
-* Must properly utilize Bootstrap components and grid system.
+- - - 
+<img src="https://img.shields.io/badge/LICENSE-mit-green">
+
+© 2020 Vincent Gines. All Rights Reserved. OH YEAH!
+
+
 
