@@ -7,9 +7,11 @@ body {
 
 /* ========== NAV ========== */
 
-.navbar-brand img{
-    height: 2em;
+.logo {
+    height: 40px;
+    padding-right: 10px;
 }
+
 .navbar-dark {
     padding: .6rem 1rem;
     font-size: 1rem;
@@ -18,15 +20,14 @@ body {
     text-transform: uppercase;
 }
 
-.navbar-nav li {
-    padding-right: .8rem
-}
-
 .navbar-nav .navlink {
     padding-top: 8rem;
     color:whitesmoke!important;
 }
-
+.me {
+    height: 300px;
+    width: 435px;
+}
 /* ======= BACKGROUND IMAGE ======= */
 
 .index-img{
