@@ -1,6 +1,6 @@
-# HW2_responsivePorfolio
+# HW2_responsivePorfolio / Unit 08 Project 1 Homework: Professional Materials
 
-## Vincent Gines Portfolio
+## Vincent Gines Updated Portfolio
 
 **List of Technologies Used:**
 1. HTML
@@ -15,13 +15,15 @@ To create a mobile-first responsive portfolio using Bootstrap.
 
 Site contains:
 
-   * A navbar containing Home/About, Contact, and Portfolio Pages
+   * A navbar containing Name, Home/About, Contact, Portfolio, and a More dropdown containing Email, Contact Number, and Resume.
 
    * A responsive layout
 
    * Responsive images
 
-   * Contains my personalized information. (bio, name, images, links to social media, GitHub, and LinkedIn).
+   * Contains my personalized information. (bio, name, images, links to social media, GitHub, and LinkedIn)
+   
+   * Portfolio contains Project#1 and 3 assignments with Live and Repo Links.
 
 **Screenshot#1:**
 

@@ -9,18 +9,20 @@
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./Assets/style.css">
   <title>Vincent Gines Portfolio</title>
 </head>
 
 <body class="index-img">
-
   <header>
     <!--NAV-->
     <nav class="fix-top navbar navbar-expand-md navbar-dark bg-dark">
       <img src="./Pictures/Index_images/letter-1084809.png" alt="letter b cube logo">
-      <a class="navbar-brand" href="index.html"><h2>Vincent Gines</h2></a>
+      <a class="navbar-brand" href="index.html">
+        <h1>Vincent Gines</h1>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,18 +33,18 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                More
-              </a>
-              <section class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="mailto:vgines73@gmail.com">Email: vgines73@gmail.com</a>
-                <a class="dropdown-item" href="tel:4157062475">Cell: 415-706-2475</a>
-                <a class="dropdown-item" href="./Resume/Vincent_Gines_Resume.PDF">My Resume</a>
-              </section>
-            </li>
-            <a class="nav-link" href="contact.html">Contact</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <section class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="mailto:vgines73@gmail.com">Email: vgines73@gmail.com</a>
+              <a class="dropdown-item" href="tel:4157062475">Cell: 415-706-2475</a>
+              <a class="dropdown-item" href="./Resume/Vincent_Gines_Resume.PDF">My Resume</a>
+            </section>
+          </li>
+          <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -61,7 +63,7 @@
 
   <!-- ABOUT ME -->
   <section>
-    <section class="container bio">
+    <section class="container">
       <article class="row">
         <section class="col-md-8">
           <article class="row">
@@ -73,9 +75,10 @@
                 <img src="./Pictures/Index_images/image1.jpeg" alt="Vince wearing glasses" class="img-thumbnail">
               </figure>
               <nav class="float-right">
-                <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></i></a>
-                <a href="https://www.facebook.com"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/vincent_gines"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/ichi_niji/"><i class="fab fa-instagram-square"></i></i></a>
+                <a href="https://www.facebook.com/vincent.gines.7"><i class="fab fa-facebook"
+                    aria-hidden="true"></i></a>
                 <a href="https://github.com/vgines73"><i class="fa fa-github" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/in/vincent-gines-oh-yeah"><i class="fab fa-linkedin"></i></a>
               </nav>
@@ -112,7 +115,7 @@
                 I'm here taking this course.
               </p>
             </section>
-
+            <!-- FAVORITE TEAMS -->
             <section class="col-md-3">
               <header>
                 <h2>Favorite Teams</h2>
@@ -143,6 +146,7 @@
                   </tr>
                 </tbody>
               </table>
+              <!-- HOBBIES AND INTERESTS -->
               <header>
                 <h2>Hobbies and Interests</h2>
               </header>
@@ -154,7 +158,7 @@
             </section>
           </article>
         </section>
-
+        <!-- Family -->
         <section class="container col-md-4">
           <header>
             <h2>My Family</h2>

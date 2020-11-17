@@ -1,9 +1,8 @@
 /* == BODY RESET == */
 
 body {
-    font-family: 'Lato', sans-serif; 
-    font-family: 'Oswald', sans-serif;
     color: whitesmoke;
+    font-family: 'Francois One', sans-serif;
 }
 
 /* ========== NAV ========== */
@@ -70,8 +69,8 @@ body {
 }
 
 .thumbnails {
-    height:300px;
-    width: 300px;
+    height: 300px;
+    width: 300px
 }
 /* ====== FOOTER ======*/
 
