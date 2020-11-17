@@ -48,8 +48,16 @@ body {
     color: black;
     position: relative;
 }
+.slide-pic {
+    height: 400px;
+    width: auto;
+}
 
-.contact-attribution {
+.music-coding {
+    height: 200px;
+    width: 600px;
+}
+.contact-footer {
     text-align: center;
     color: black;
     position: relative;
@@ -62,7 +70,7 @@ body {
 
 }
 
-.portfolio-attribution {
+.portfolio-footer {
     text-align: center;
     color: grey;
     position: relative;
@@ -80,7 +88,7 @@ body {
     text-transform: uppercase;
 }
 
-.attribution {
+.footer {
     text-align: center;
     color: whitesmoke;
     position: relative;
