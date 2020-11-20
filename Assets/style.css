@@ -1,8 +1,7 @@
 /* == BODY RESET == */
 
 body {
-    color: whitesmoke;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ========== NAV ========== */
@@ -22,21 +21,26 @@ body {
 
 .navbar-nav .navlink {
     padding-top: 8rem;
-    color:whitesmoke!important;
 }
-.me {
-    height: 300px;
-    width: 435px;
+
+p {
+    background-color: whitesmoke;
+    opacity: 0.5;
 }
+
+
 /* ======= BACKGROUND IMAGE ======= */
 
 .index-img{
     background-image: url('../Pictures/Index_images/hands-984032.jpg');
     background-size: cover;
 }
-
+h1,
+h2,
+h3,
 .teams {
-    color: whitesmoke!important;
+    color: whitesmoke;
+    font-family: 'Francois One', sans-serif;
 }
 
 /* ======== CONTACT ======== */
@@ -58,6 +62,7 @@ body {
     height: 200px;
     width: 600px;
 }
+.contact-text,
 .contact-footer {
     text-align: center;
     color: black;
@@ -83,7 +88,7 @@ body {
 /* ====== FOOTER ======*/
 
 .breh {
-    color: whitesmoke!important;
+    color: whitesmoke;
     letter-spacing: .2rem;
     text-transform: uppercase;
 }
@@ -92,4 +97,17 @@ body {
     text-align: center;
     color: whitesmoke;
     position: relative;
+}
+
+
+/* == MEDIA QUERIES == */
+@media all and (max-width: 768px) {
+    .logo {
+        height: 40px;
+        padding-right: 2px;
+    }
+    .thumbnails {
+        height: auto;
+        width: auto;
+    }
 }
