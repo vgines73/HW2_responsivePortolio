@@ -5,17 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./Assets/style.css">
   <title>My Contact</title>
 </head>
 
-<body class="contact-img">
+<body>
   <header>
     <!--NAV-->
     <nav class="fix-top navbar navbar-expand-md navbar-dark bg-dark">
@@ -42,57 +44,56 @@
       </nav>
     </nav>
   </header>
-
-  <section>
-    <section role="img" aria-label="light color brick wall"></section>
-  </section>
-  <main>
+<!-- Contact Me Section -->
+  <main class="container">
     <section class="row">
       <section class="col-md-6">
-        <div class="row">
-          <div class="col-md-7">
+        <section class="row">
+          <article class="col-md-7">
             <header>
-              <h1 class="info container">Contact Me</h1>
+              <h1>Contact Me</h1>
             </header>
-            <form class="info container">
+            <form id="my-form" action="https://formspree.io/f/mrgolddz" method="POST">
               <address class="form-group">
-                <label for="exampleInputName1">Name</label>
-                <input type="name" class="form-control" id="exampleInputName1" aria-describedby="NameHelp"
+                <label for="name">Name</label>
+                <input type="name" class="form-control" id="name" aria-describedby="NameHelp"
                   placeholder="Name">
               </address>
               <address class="form-group">
-                <label for="exampleInputEmail1">Email Address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                   placeholder="Email" data-error="valid Email is required">
                 <div class="help-block with-errors"></div>
               </address>
               <address class="form-group">
-                <label for="exampleInputMessage">Message</label>
-                <!-- <input type="message" rows="2" class="form-control" id="exampleInputMessage1" placeholder="Message"> -->
-                <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
                 <div class="help-block with-errors"></div>
               </address>
-              <button type="submit" value="Send Message" class="btn btn-primary">Submit</button>
+              <button id="submit-button" type="submit" value="Send Message" class="btn btn-primary">Submit</button>
+              <p id="form-status"></p>
             </form>
-          </div>
-          <div class="col-sm-4 text-center" style="padding-top: 50px; color: black; align-items: center; justify-content: center;">
-            <div>
-              <i class="fas fa-mobile-alt" style="font-size: 40px;" alt="phone"></i>
-              <a class="dropdown-item is-primary" href="tel:4157062475" style="font-size: large; background-color: transparent;">415-706-2475</a>
-            </div>
-            <div>
-              <i class="fas fa-envelope" style="font-size: 40px; padding-top: 30px;" alt="envelope"></i>
-              <a class="dropdown-item" href="mailto:vgines73@gmail.com" style="font-size: larger; background-color: transparent;">vgines73@gmail.com</a>
-            </div>
-            <div>
-              <i class="fas fa-file-pdf" style="font-size: 40px; padding-top: 30px;" alt="pdf file"></i>
-              <a class="dropdown-item is-primary" href="./Resume/Vincent_Gines_Resume.PDF" style="font-size: larger; background-color: transparent;" target="blank">My Resume</a>
-            </div>
-          </div>
-        </div>
+          </article>
+          <!-- Phone Email Resume Section -->
+          <article class="col-sm-4 text-center" style="padding-top: 50px; align-items: center; justify-content: center;">
+            <figure>
+              <i class="fas fa-mobile-alt" style="font-size: 40px;" alt="phone"></i><br>
+              <a href="tel:4157062475" style="font-size: large; background-color: transparent;">415-706-2475</a>
+            </figure>
+            <figure>
+              <i class="fas fa-envelope" style="font-size: 40px; padding-top: 30px;" alt="envelope"></i><br>
+              <a href="mailto:vgines73@gmail.com" style="font-size: 20px; background-color: transparent;">vgines73@gmail.com</a>
+            </figure>
+            <figure>
+              <i class="fas fa-file-pdf" style="font-size: 40px; padding-top: 30px;" alt="pdf file"></i><br>
+              <a href="./Resume/Vincent_Gines_Resume.PDF" style="font-size: larger; background-color: transparent;" target="blank">My Resume</a>
+
+            </figure>
+          </article>
+        </section>
       </section>
 
-      <section class="col-md-6 container">
+      <section class="col-md-6">
         <nav id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -138,29 +139,29 @@
     </section>
     <br>
     <section>
-      <section class="row info">
-        <figure class="col-md-4">
+      <section class="row">
+        <figure class="col-md-4 horror-anime" style="padding-top: 45px;">
           <img src="https://i.pinimg.com/736x/1a/a7/1e/1aa71e4fe64928b08a4f4526befe55a8--alex-pardee-horror-art.jpg"
-            alt="skull with horror villians" class="img-thumbnail rounded-circle">
+            alt="skull with horror villians" class="img-thumbnail">
           <header>
             <h2 class="text-center contact-text">Horror Art</h2>
           </header>
         </figure>
-        <figure row container class="col-md-4">
+        <figure row class="col-md-4">
           <img src="./Pictures/Contact_images/table-1284507_1920.jpg" alt="d.j. table mixer"
-            class="img-thumbnail rounded music-coding">
+            class="img-thumbnail music-coding">
           <header>
             <h2 class="text-center contact-text">Music</h2>
           </header>
           <img src="./Pictures/Contact_images/good-vs-evil-5059839_640.jpg" alt="numbers water-fist fire-fist"
-            class="img-thumbnail rounded music-coding">
+            class="img-thumbnail music-coding">
           <header>
             <h2 class="text-center contact-text">Coding</h2>
           </header>
         </figure>
-        <figure class="col-md-4">
+        <figure class="col-md-4 horror-anime" style="padding-top: 45px;">
           <img src="https://pbs.twimg.com/media/ClhNJ72UoAE_aVZ.jpg:large" alt="sketch of demonic anime character"
-            class="img-thumbnail rounded-circle">
+            class="img-thumbnail">
           <header>
             <h2 class="text-center contact-text">Anime Art</h2>
           </header>
@@ -178,17 +179,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+  <!-- <script src="./app.js"></script> -->
 
   <br>
 
-  <footer class="contact-footer">
+  <footer>
     &copy; 2020. Made by Vincent <span class="breh">"Breh"</span> Gines
     <br>
-    <!--background image-->
-    Image by <a
-      href="https://pixabay.com/users/engin_akyurt-3656355/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3219829">Engin
-      Akyurt</a> from <a
-      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3219829">Pixabay</a>
     <!--snowboarding-->
     Image by <a
       href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690779">Free-Photos</a>
@@ -199,8 +196,8 @@
       href="https://pixabay.com/users/tortugadatacorp-5195555/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2258651">Varun
       Kulkarni</a> from <a
       href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2258651">Pixabay</a>
-    <!--japanese garden-->
     <br>
+      <!--japanese garden-->
     Image by <a
       href="https://pixabay.com/users/jamesdemers-3416/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=53769">JamesDeMers</a>
     from <a

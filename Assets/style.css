@@ -1,7 +1,11 @@
-/* == BODY RESET == */
 
-body {
+body,
+td {
     font-family: 'Roboto', sans-serif;
+    color: grey!important;
+    opacity: .9;
+    background-color: black;
+
 }
 
 /* ========== NAV ========== */
@@ -23,63 +27,37 @@ body {
     padding-top: 8rem;
 }
 
-p {
-    background-color: whitesmoke;
-    opacity: 0.5;
-}
-
-
-/* ======= BACKGROUND IMAGE ======= */
-
-.index-img{
-    background-image: url('../Pictures/Index_images/hands-984032.jpg');
-    background-size: cover;
-}
 h1,
 h2,
 h3,
-.teams {
+.teams,
+.text {
     color: whitesmoke;
     font-family: 'Francois One', sans-serif;
 }
 
 /* ======== CONTACT ======== */
 
-.contact-img {
-    background-image: url('../Pictures/Contact_images/wallpaper-3219829_1920.jpg');
-    background-size: cover;
-}
-.info {
-    color: black;
-    position: relative;
-}
 .slide-pic {
     height: 400px;
-    width: auto;
+    width: 600px;
 }
 
+.horror-anime {
+    height: 300px;
+    width: 300px;
+}
 .music-coding {
     height: 200px;
     width: 600px;
 }
-.contact-text,
-.contact-footer {
-    text-align: center;
-    color: black;
-    position: relative;
-}
-/* ======= PORTFOLIO ======= */
 
+/* ======= PORTFOLIO ======= */
+/* 
 .portfolio-img {
     background-image: url('../Pictures/Portfolio_images/skull-2580981_1920.jpg');
     background-size: cover;
-}
-
-.portfolio-footer {
-    text-align: center;
-    color: grey;
-    position: relative;
-}
+} */
 
 .thumbnails {
     height: 300px;
@@ -93,9 +71,9 @@ h3,
     text-transform: uppercase;
 }
 
-.footer {
+footer {
     text-align: center;
-    color: whitesmoke;
+    color: grey;
     position: relative;
 }
 
