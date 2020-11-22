@@ -2,8 +2,8 @@
 body,
 td {
     font-family: 'Roboto', sans-serif;
-    color: grey!important;
-    opacity: .9;
+    color: grey;
+    opacity: .8;
     background-color: black;
 
 }
