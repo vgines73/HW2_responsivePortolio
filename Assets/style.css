@@ -82,9 +82,14 @@ footer {
 @media all and (max-width: 768px) {
     .logo {
         height: 40px;
-        padding-right: 2px;
+        padding-right: .1px;
     }
     .thumbnails {
+        height: auto;
+        width: auto;
+    }
+    .horror-anime {
+        padding-top: none;
         height: auto;
         width: auto;
     }
