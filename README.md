@@ -27,10 +27,10 @@ Site contains:
    * Portfolio contains Project#1 and 3 assignments with Live and Repo Links.
 
 **Screenshot#1:**
-![screencapture-vgines73-github-io-HW2-responsivePortolio-index-html-2020-11-21-16_57_46](https://user-images.githubusercontent.com/71681031/99891070-df2d6c80-2c1a-11eb-9e98-7441001f4ebd.png)
+![screencapture-vgines73-github-io-HW2-responsivePortolio-index-html-2020-11-22-13_54_05](https://user-images.githubusercontent.com/71681031/99918211-4a824780-2cca-11eb-9056-7e42925a2848.png)
 
 **Screenshot#2:**
-![screencapture-vgines73-github-io-HW2-responsivePortolio-contact-html-2020-11-21-16_58_27](https://user-images.githubusercontent.com/71681031/99891074-e3598a00-2c1a-11eb-95ed-9bf40df91bf0.png)
+![screencapture-vgines73-github-io-HW2-responsivePortolio-contact-html-2020-11-22-13_54_22](https://user-images.githubusercontent.com/71681031/99918214-4e15ce80-2cca-11eb-80e7-0f5a1d23b8f1.png)
 
 **Screenshot#3:**
 ![screencapture-vgines73-github-io-HW2-responsivePortolio-portfolio-html-2020-11-21-16_58_42](https://user-images.githubusercontent.com/71681031/99891075-e6ed1100-2c1a-11eb-9ad9-881cb38c6d25.png)
