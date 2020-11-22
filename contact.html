@@ -35,7 +35,7 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li>
-          <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -44,7 +44,7 @@
       </nav>
     </nav>
   </header>
-<!-- Contact Me Section -->
+  <!-- Contact Me Section -->
   <main class="container" style="padding-top: 30px;">
     <section class="row">
       <section class="col-md-6">
@@ -53,40 +53,33 @@
             <header>
               <h1>Contact Me</h1>
             </header>
-            <form id="my-form">
-              <address class="form-group">
-                <label for="name">Name</label>
-                <input type="name" class="form-control" id="name" aria-describedby="NameHelp"
-                  placeholder="Name">
-              </address>
-              <address class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                  placeholder="Email" data-error="valid Email is required">
-                <div class="help-block with-errors"></div>
-              </address>
-              <address class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
-                <div class="help-block with-errors"></div>
-              </address>
-              <button id="submit-button" type="submit" value="Send Message" class="btn btn-primary">Submit</button>
-              <p id="form-status"></p>
+            <form id="my-form" action="https://formspree.io/f/mrgolddz" method="POST">
+              <label>Name:</label><br>
+              <input id="name"type="name" style="min-width: 300px;" name="name"><br>
+              <label style="margin-top: 20px;">Email:</label><br>
+              <input id="email" type="email"  style="min-width: 300px;" name="email"/><br>
+              <label style="margin-top: 20px;">Message:</label><br>
+              <textarea id="message" type="text"  style="min-width: 300px;" name="message"></textarea><br>
+              <button id="my-form-button" class="btn-primary btn-lg active" style="margin-top: 40px; float: right;">Submit</button>
+              <p id="my-form-status"></p>
             </form>
           </article>
           <!-- Phone Email Resume Section -->
-          <article class="col-sm-4 text-center container" style="padding-top: 50px; align-items: center; justify-content: center;">
+          <article class="col-sm-4 text-center container"
+            style="padding-top: 50px; align-items: center; justify-content: center;">
             <figure>
               <i class="fas fa-mobile-alt" style="font-size: 40px;" alt="phone"></i><br>
               <a href="tel:4157062475" style="font-size: 16px; background-color: transparent;">415-706-2475</a>
             </figure>
             <figure>
               <i class="fas fa-envelope" style="font-size: 40px; padding-top: 30px;" alt="envelope"></i><br>
-              <a href="mailto:vgines73@gmail.com" style="font-size: 16px; background-color: transparent;">vgines73@gmail.com</a>
+              <a href="mailto:vgines73@gmail.com"
+                style="font-size: 16px; background-color: transparent;">vgines73@gmail.com</a>
             </figure>
             <figure>
               <i class="fas fa-file-pdf" style="font-size: 40px; padding-top: 30px;" alt="pdf file"></i><br>
-              <a href="./Assets/resume/vincentGinesResume.pdf" style="font-size: 16px; background-color: transparent;" target="blank">My Resume</a>
+              <a href="./Assets/resume/vincentGinesResume.pdf" style="font-size: 16px; background-color: transparent;"
+                target="blank">My Resume</a>
 
             </figure>
           </article>
@@ -179,6 +172,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+  <script src="./Assets/app.js"></script>
 
   <br>
 
@@ -196,7 +190,7 @@
       Kulkarni</a> from <a
       href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2258651">Pixabay</a>
     <br>
-      <!--japanese garden-->
+    <!--japanese garden-->
     Image by <a
       href="https://pixabay.com/users/jamesdemers-3416/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=53769">JamesDeMers</a>
     from <a
