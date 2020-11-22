@@ -8,6 +8,7 @@
 3. Bootstrap
 4. Font Awesome
 5. Google Fonts
+6. Formspree
 
 **About the App:**
 
